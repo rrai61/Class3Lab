@@ -12,7 +12,7 @@
         <title>Home Page</title>
     </head>
     <body>
-        <h1>Activities</h1>
+        <h1>Activities LAB 3</h1>
         <p><a href="http://localhost:8080/Class3Lab/pager">Click here for activity 2</a></p>
         <p><a href="PageGenerator2.jsp">Click here for activity 3</a></p>
         <p><a href="welcome.html">Click here for activity 4</a></p>
