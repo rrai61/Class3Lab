@@ -12,28 +12,23 @@
         <title>Activity 3: Table JSP Page</title>
     </head>
     <body>
-        <h1></h1>
-        <%
 
-            String tableHeader = "MOVIES";
-
-            out.println("<table style='font-weight:bold;border:1px solid black;'> <th>"+ tableHeader +"</th>"
-            + "<tr>"
-                    + "<td>The Godfather</td>"
-                    + "<td>1972</td>"
-                    + "<td>Francis Ford Coppola</td>"
-                    + "</tr>"
-            + "<tr>"
-                    + "<td>Inception</td>"
-                    + "<td>2010</td>"
-                    + "<td>Christopher Nolan</td>"
-                    + "</tr>"
-            + "<tr>"
-                    + "<td>Roman Holiday</td>"
-                    + "<td>1953</td>"
-                    + "<td>William Wyler</td>"
-                    + "</tr></table>");
-        %>
+            <table style='font-weight:bold;border:1px solid black;'> <th>MOVIES</th>
+            <tr>
+                    <td>The Godfather</td>
+                    <td>1972</td>
+                    <td>Francis Ford Coppola</td>
+                    </tr>
+            <tr>
+                    <td>Inception</td>
+                    <td>2010</td>
+                    <td>Christopher Nolan</td>
+                    </tr>
+            <tr>
+                    <td>Roman Holiday</td>
+                    <td>1953</td>
+                    <td>William Wyler</td>
+                    </tr></table>
         <p><a href="homepage.jsp">Back to Home</a></p>
     </body>
 </html>
